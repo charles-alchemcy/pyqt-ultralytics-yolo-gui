@@ -9,7 +9,6 @@ from ultralytics import YOLO
 from ultralytics.solutions import object_counter
 from ultralytics.utils.plotting import Annotator, colors
 
-
 def open_directory(path):
     if sys.platform.startswith('darwin'):  # macOS
         os.system('open "{}"'.format(path))
@@ -19,7 +18,6 @@ def open_directory(path):
         os.system('xdg-open "{}"'.format(path))
     else:
         print("Unsupported operating system.")
-
 
 class YOLOWrapper:
     def __init__(self):
