@@ -27,7 +27,7 @@ from qtpy.QtCore import QThread, Signal
 # os.environ['QT_API'] = 'pyside6'
 
 # for testing pyqt6
-os.environ['QT_API'] = 'pyqt6'
+os.environ['QT_API'] = 'pyqt5'
 
 print(os.environ['QT_API'])
 
