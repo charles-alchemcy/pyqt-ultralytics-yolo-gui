@@ -6,6 +6,7 @@ from script import YOLOWrapper, open_directory
 # Get the absolute path of the current script file
 script_path = os.path.abspath(__file__)
 
+
 # Get the root directory by going up one level from the script directory
 project_root = os.path.dirname(os.path.dirname(script_path))
 
