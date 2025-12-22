@@ -19,7 +19,6 @@ def open_directory(path):
     else:
         print("Unsupported operating system.")
 
-
 class YOLOWrapper:
     def __init__(self):
         self.__model = ''
